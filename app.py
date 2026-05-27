@@ -57,6 +57,7 @@ fig1 = px.line(
 )
 fig1.update_layout(yaxis_range=[85, 100])
 st.plotly_chart(fig1, use_container_width=True)
+st.caption("📌 Perhatikan penurunan yield di bulan Mei dan September 2024 — kedua bulan ini mencatat batch FAIL terbanyak sepanjang tahun.")
 
 st.markdown("---")
 
@@ -74,6 +75,7 @@ with col_a:
         labels={'product_name': 'Produk', 'total_deviasi': 'Jumlah Deviasi'}
     )
     st.plotly_chart(fig2, use_container_width=True)
+    st.caption("📌 Amoxicillin dan Paracetamol mencatat deviasi tertinggi — perlu review lebih lanjut pada proses produksi kedua produk ini.")
 
 with col_b:
     st.markdown("**Distribusi Penyebab Deviasi**")
@@ -85,6 +87,7 @@ with col_b:
         deviasi_count, names='deviation_type', values='count'
     )
     st.plotly_chart(fig3, use_container_width=True)
+    st.caption("📌 Equipment dan Process mendominasi penyebab deviasi — mengindikasikan perlunya program preventive maintenance dan review SOP.")
 
 st.markdown("---")
 
@@ -97,6 +100,7 @@ fig4 = px.bar(
     labels={'month_str': 'Bulan', 'value': 'Jumlah Kejadian'}
 )
 st.plotly_chart(fig4, use_container_width=True)
+st.caption("📌 Mei 2024 mencatat OOS tertinggi — dipicu batch Paracetamol yang mengalami multiple failures hingga berujung penarikan batch.")
 
 st.markdown("---")
 
@@ -170,6 +174,7 @@ fig6.update_layout(
     yaxis_range=[83, 102]
 )
 st.plotly_chart(fig6, use_container_width=True)
+st.warning("⚠️ Cp & Cpk < 1.33 mengindikasikan proses belum capable — variasi yield terlalu besar. Rekomendasi: investigasi sumber variasi pada equipment, process, dan material.")
 
 st.markdown("---")
 st.caption("Built by Wanda Rizqi Amaliah | Pharmacist × AI Engineer | Rubythalib AI Bootcamp 2024")
