@@ -1,0 +1,53 @@
+batch_number,product_name,production_date,batch_size_kg,yield_pct,deviation_count,oos_count,oot_count,status,deviation_type,remarks,capa_id,capa_description,capa_status,due_date,pic,closed_date
+B2024001,Amoxicillin 500mg,2024-01-05,500,97.2,0,0,0,PASS,,,,,,,, 
+B2024002,Amoxicillin 500mg,2024-01-12,500,95.8,1,0,0,PASS,Packaging,Minor seal issue,CAPA-001,Kalibrasi ulang mesin sealing,Closed,2024-02-01,Rina,2024-01-28
+B2024003,Paracetamol 500mg,2024-01-18,800,98.1,0,0,0,PASS,,,,,,,,
+B2024004,Paracetamol 500mg,2024-01-25,800,91.3,2,1,0,FAIL,Equipment;Contamination,Tablet hardness OOS,CAPA-002,Perbaikan mesin kompresi + retraining operator,Closed,2024-03-01,Budi,2024-02-20
+B2024005,Amoxicillin 500mg,2024-02-02,500,96.5,0,0,0,PASS,,,,,,,,
+B2024006,Metformin 500mg,2024-02-08,600,97.8,0,0,0,PASS,,,,,,,,
+B2024007,Metformin 500mg,2024-02-14,600,94.2,1,0,1,PASS,Equipment,Dissolution OOT,CAPA-003,Pengecekan rutin parameter dissolution setiap batch,Closed,2024-03-15,Sari,2024-03-10
+B2024008,Paracetamol 500mg,2024-02-20,800,96.9,0,0,0,PASS,,,,,,,,
+B2024009,Amoxicillin 500mg,2024-02-27,500,89.4,3,1,1,FAIL,Process;Equipment;Human Error,Yield low - mixing time deviation,CAPA-004,Revisi SOP mixing + kalibrasi mixer + retraining,Closed,2024-04-01,Wanda,2024-03-25
+B2024010,Metformin 500mg,2024-03-05,600,98.3,0,0,0,PASS,,,,,,,,
+B2024011,Paracetamol 500mg,2024-03-11,800,97.5,0,0,0,PASS,,,,,,,,
+B2024012,Amoxicillin 500mg,2024-03-18,500,96.1,1,0,0,PASS,Human Error,Wrong granulation speed - corrected,CAPA-005,Tambah checklist verifikasi kecepatan granulasi,Closed,2024-04-15,Rina,2024-04-10
+B2024013,Metformin 500mg,2024-03-25,600,95.7,0,0,0,PASS,,,,,,,,
+B2024014,Paracetamol 500mg,2024-04-01,800,98.6,0,0,0,PASS,,,,,,,,
+B2024015,Amoxicillin 500mg,2024-04-08,500,97.0,0,0,0,PASS,,,,,,,,
+B2024016,Metformin 500mg,2024-04-15,600,90.1,2,0,2,PASS,Equipment;Process,Compression force OOT,CAPA-006,Preventive maintenance mesin kompresi + revisi batas alert,In Progress,2024-06-01,Budi,
+B2024017,Paracetamol 500mg,2024-04-22,800,97.3,0,0,0,PASS,,,,,,,,
+B2024018,Amoxicillin 500mg,2024-04-29,500,95.2,1,0,0,PASS,Packaging,Label misalignment,CAPA-007,Kalibrasi mesin labelling,Closed,2024-05-20,Sari,2024-05-15
+B2024019,Metformin 500mg,2024-05-06,600,98.0,0,0,0,PASS,,,,,,,,
+B2024020,Paracetamol 500mg,2024-05-13,800,88.7,3,2,0,FAIL,Contamination;Equipment;Process,Assay OOS - batch recalled,CAPA-008,Investigasi sumber kontaminasi + sanitasi area produksi + audit supplier,Open,2024-07-01,Wanda,
+B2024021,Amoxicillin 500mg,2024-05-20,500,97.6,0,0,0,PASS,,,,,,,,
+B2024022,Metformin 500mg,2024-05-27,600,96.4,1,0,0,PASS,Human Error,Incorrect weighing - rechecked,CAPA-009,Double check system timbangan + retraining operator,Closed,2024-06-20,Rina,2024-06-18
+B2024023,Paracetamol 500mg,2024-06-03,800,97.8,0,0,0,PASS,,,,,,,,
+B2024024,Amoxicillin 500mg,2024-06-10,500,94.9,1,0,1,PASS,Process,Content uniformity OOT,CAPA-010,Review parameter blending + tambah IPC content uniformity,In Progress,2024-08-01,Budi,
+B2024025,Metformin 500mg,2024-06-17,600,98.5,0,0,0,PASS,,,,,,,,
+B2024026,Paracetamol 500mg,2024-06-24,800,97.1,0,0,0,PASS,,,,,,,,
+B2024027,Amoxicillin 500mg,2024-07-01,500,96.8,0,0,0,PASS,,,,,,,,
+B2024028,Metformin 500mg,2024-07-08,600,91.5,2,1,0,FAIL,Equipment;Process,Hardness OOS - press malfunction,CAPA-011,Penggantian punch & die + kalibrasi load cell,Closed,2024-08-15,Sari,2024-08-10
+B2024029,Paracetamol 500mg,2024-07-15,800,98.2,0,0,0,PASS,,,,,,,,
+B2024030,Amoxicillin 500mg,2024-07-22,500,97.4,0,0,0,PASS,,,,,,,,
+B2024031,Metformin 500mg,2024-07-29,600,95.0,1,0,0,PASS,Human Error,Documentation error - corrected,CAPA-012,Sosialisasi ulang SOP dokumentasi batch record,Closed,2024-08-20,Rina,2024-08-18
+B2024032,Paracetamol 500mg,2024-08-05,800,97.9,0,0,0,PASS,,,,,,,,
+B2024033,Amoxicillin 500mg,2024-08-12,500,93.6,2,0,1,PASS,Equipment;Process,Friability OOT,CAPA-013,Review formula coating + PM mesin coating,In Progress,2024-10-01,Budi,
+B2024034,Metformin 500mg,2024-08-19,600,98.1,0,0,0,PASS,,,,,,,,
+B2024035,Paracetamol 500mg,2024-08-26,800,96.7,1,0,0,PASS,Packaging,Blister seal incomplete,CAPA-014,Kalibrasi suhu sealing blister,Closed,2024-09-15,Sari,2024-09-12
+B2024036,Amoxicillin 500mg,2024-09-02,500,97.3,0,0,0,PASS,,,,,,,,
+B2024037,Metformin 500mg,2024-09-09,600,97.6,0,0,0,PASS,,,,,,,,
+B2024038,Paracetamol 500mg,2024-09-16,800,87.2,4,2,1,FAIL,Contamination;Equipment;Process;Human Error,Multiple failures - batch destroyed,CAPA-015,Root cause analysis menyeluruh + shutdown sementara line produksi + audit internal,Open,2024-11-30,Wanda,
+B2024039,Amoxicillin 500mg,2024-09-23,500,96.2,1,0,0,PASS,Process,Mixing time extended,CAPA-016,Update parameter mixing di batch record,Closed,2024-10-15,Rina,2024-10-12
+B2024040,Metformin 500mg,2024-09-30,600,98.4,0,0,0,PASS,,,,,,,,
+B2024041,Paracetamol 500mg,2024-10-07,800,97.0,0,0,0,PASS,,,,,,,,
+B2024042,Amoxicillin 500mg,2024-10-14,500,95.5,1,0,0,PASS,Human Error,Calculation error - reprocessed,CAPA-017,Implementasi sistem kalkulasi otomatis di batch record,In Progress,2024-12-15,Budi,
+B2024043,Metformin 500mg,2024-10-21,600,98.2,0,0,0,PASS,,,,,,,,
+B2024044,Paracetamol 500mg,2024-10-28,800,97.4,0,0,0,PASS,,,,,,,,
+B2024045,Amoxicillin 500mg,2024-11-04,500,96.9,0,0,0,PASS,,,,,,,,
+B2024046,Metformin 500mg,2024-11-11,600,92.3,2,0,1,PASS,Equipment;Process,Weight variation OOT,CAPA-018,PM timbangan IPC + review batas spesifikasi weight variation,In Progress,2025-01-15,Sari,
+B2024047,Paracetamol 500mg,2024-11-18,800,97.7,0,0,0,PASS,,,,,,,,
+B2024048,Amoxicillin 500mg,2024-11-25,500,97.1,0,0,0,PASS,,,,,,,,
+B2024049,Metformin 500mg,2024-12-02,600,98.0,0,0,0,PASS,,,,,,,,
+B2024050,Paracetamol 500mg,2024-12-09,800,96.5,1,0,0,PASS,Packaging,Print quality issue,CAPA-019,Kalibrasi mesin printing + standarisasi tinta,Open,2025-01-20,Rina,
+B2024051,Amoxicillin 500mg,2024-12-16,500,97.8,0,0,0,PASS,,,,,,,,
+B2024052,Metformin 500mg,2024-12-23,600,95.1,1,0,0,PASS,Human Error,Temperature log gap,CAPA-020,Implementasi monitoring suhu otomatis + alarm system,Open,2025-02-01,Budi,
