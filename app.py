@@ -10,6 +10,14 @@ st.set_page_config(page_title="PQR Analytics Dashboard", layout="wide")
 st.title("📊 Clinical PQR Analytics Dashboard")
 st.caption("Product Quality Review — Pharmaceutical Manufacturing 2024")
 
+st.info("""
+👩‍⚕️ **Tentang Dashboard Ini**
+
+Dashboard ini dibangun berdasarkan pengalaman nyata sebagai apoteker industri yang kesulitan menganalisis data Product Quality Review (PQR) secara manual — proses yang biasanya memakan waktu berhari-hari kini bisa divisualisasikan dalam hitungan detik.
+
+Dibangun oleh **Wanda Rizqi Amaliah** — Pharmacist × AI Engineer | Rubythalib AI Bootcamp 2026
+""")
+
 # ─── LOAD DATA ─────────────────────────────────────────────
 df = pd.read_csv("pqr_dummy_dataset_with_capa.csv")
 df['production_date'] = pd.to_datetime(df['production_date'])
