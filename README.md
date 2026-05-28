@@ -5,6 +5,8 @@ Dashboard interaktif untuk analisis Product Quality Review (PQR) di industri far
 ## 🔗 Live Demo
 [Buka Dashboard](https://wandarizqi-pqr-analytics-dashboard.streamlit.app/)
 
+![Dashboard Preview](image.png)
+
 ## 🧠 Latar Belakang
 Sebagai apoteker di industri farmasi, proses analisis PQR dilakukan secara manual menggunakan spreadsheet — memakan waktu berhari-hari dan rawan human error. Dashboard ini hadir sebagai solusi untuk mengotomasi dan memvisualisasikan data PQR secara real-time.
 
